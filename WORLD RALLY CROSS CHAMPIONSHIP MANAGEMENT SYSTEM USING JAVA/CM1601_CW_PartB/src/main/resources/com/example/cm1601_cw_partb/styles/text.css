@@ -1,0 +1,7 @@
+.text-field{
+    -fx-background-color: transparent;
+    -fx-border-color: #39A9DB;
+    -fx-border-width: 3px;
+    -fx-border-radius: 3px;
+    -fx-text-fill: #fff;
+}

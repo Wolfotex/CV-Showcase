@@ -1,0 +1,33 @@
+.menu-button{
+    -fx-background-color: #39A9DB;
+    -fx-border-color: #39A9DB;
+    -fx-border-width: 3px;
+    -fx-border-radius: 2px;
+    -fx-text-fill: #fff;
+}
+
+.menu-button:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+}
+
+.exit-button{
+    -fx-text-fill: #fff;
+    -fx-background-color: rgba(255, 58, 58, 1);
+    -fx-border-color: rgba(255, 58, 58, 1);
+}
+
+.exit-button:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+}
+
+.save-button{
+    -fx-border-color: rgba(0, 241, 88, 1);
+    -fx-background-color: rgba(0, 241, 88, 1);
+}
+
+.save-button:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+}
