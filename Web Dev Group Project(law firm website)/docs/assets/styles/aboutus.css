@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.content-1{
+    display: flex;
+    margin:20px;
+    height: 250px;
+    align-items: center;
+    justify-content: end;
+    background-color: #DDEDF5;
+}
+.content-1 img{
+    height: 250px;
+    z-index: 0;
+    
+}
+.content-1 h1{
+    font-size: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}
+.content-2{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.content-2 p{
+    margin-top: 25px;
+}
+
+.our_vision{
+    background-color: #54D0E1;
+    padding: 20px ;
+    margin-top: 30px;
+}
+
+.team{
+    margin-top:50px;
+    justify-content: center;
+    align-items: center;
+}
+.team h2{
+    text-align: center;
+}
+
+.content-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.profile_1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 3em;
+    border-radius: 50%;
+    background: url("../imgs/members/Damith\ new.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #54D0E1;
+    transition: 0.2s;    
+}
+.profile_2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 3em;
+    border-radius: 50%;
+    background: url("../imgs/members/Gouri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #54D0E1;
+    transition: 0.2s;    
+}
+.profile_3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 3em;
+    border-radius: 50%;
+    background: url("../imgs/members/Eshan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #54D0E1;
+    transition: 0.2s;    
+}
+
+.profile_1:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #2f3ad1 ;
+}
+.profile_2:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #2f3ad1 ;
+}
+.profile_3:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #2f3ad1 ;
+}
+
+.content{
+    position: absolute;
+    bottom: 75px;
+    padding:20px;
+    margin-bottom:40px;
+    min-width: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    text-align: center;
+}
+
+.content.header{
+    display: flex;
+    align-items: center;    
+}
+
+.content.header.img{
+    grid-column: 1/2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;            
+}
+.content.content.header.info{
+    margin-left: 1em;
+}
+
+.content.content.header.info.name{
+    font-size: 1.25em;
+    column-rule-color: #333;
+    letter-spacing: 1px;    
+    font-size: 60;      
+}
+.content.content.content.header.info.title{
+        font-size: 0.9em;
+    color: #fff;
+    font-weight: 300;
+}
+.content.body{
+    padding: 1em;
+}
+
+.content.body.p{
+    font-size: 0.95em;
+    color: #fff;
+}
+.profile_1:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(0px);
+}
+.profile_2:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(0px);
+}
+.profile_3:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-15%) translateY(0px);
+}
+
+.content-1{
+    margin-left: 16%;
+    margin-top: -100vh;
+}
+
+.content-2{
+    margin-left: 16%;
+}
+
+.team{
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hi{
+    margin-top: 100px;
+}

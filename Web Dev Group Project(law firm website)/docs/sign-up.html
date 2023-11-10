@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valor - Sign Up</title>
+        <link rel="icon" href="assets/imgs/logo-black.png">
+
+        <link rel="stylesheet" href="assets/styles/top-nav.css">
+        <link rel="stylesheet" href="assets/styles/sidebar.css">
+        <link rel="stylesheet" href="assets/styles/home-page.css">
+        <link rel="stylesheet" href="assets/styles/sign-up.css">
+    </head> 
+    <body>
+
+        <div id="navbar">
+          <a href="sign-up.html">Sign up</a>
+          <a href="shop.html">Shop</a>
+          <a href="quiz-startup.html">Test your knowledge</a>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <a href="index.html"><img src="assets/imgs/logo-black.png" alt="logo" class="sidebar-logo-img"></a>
+            </div>
+
+            <div class="side-nav">
+                <ul>
+                    <li><a href="home-page.html" id="active">Home</a></li>
+                    <li><a href="services-page.html">Services</a></li>
+                    
+                    <li><a href="image-gallery.html">Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+              </div>
+        </div>
+
+        <div id="signup-form-container">
+            <form id="myform" method="post" name="quedetail">
+                <div id="querydetail">
+                 <div id="que">
+                  <h2>Signup</h2>
+                    <!--Input fields-->
+                    <div class="input_field">
+                      <input type="text" name="fname" id="fname" placeholder="Name">
+                    </div>
+
+                    <div class="input_field">
+                        <select class="subj" name="gender" id="gender">
+                          <option value="" disabled selected>Gender</option>
+                          <option value="items">Male</option>
+                          <option value="order">Female</option>
+                          <option value="deliver">Rather not say</option>
+                        </select>
+                      </div> 
+
+                    <div class="input_field">
+                      <input type="text" name="age" id="age" placeholder="Age">
+                    </div>
+
+                    <div class="input_field">
+                        <input type="text" name="occu" id="occu" placeholder="Occupation">
+                    </div>
+
+                    <div class="input_field">	   
+                      <input type="text" id="email" name="email" placeholder="Enter your email address">
+                    </div>	
+                    
+                    <div class="input_field">
+                        <input type="text" name="Contact" id="Contact" placeholder="Contact No">
+                    </div>
+
+                    <div class="input_field">
+                        <input type="text" name="pass" id="pass" placeholder="Password">
+                    </div>
+
+                    <div class="input_field">
+                        <input type="text" name="comfirmPass" id="comfirmPass" placeholder="Comfirm Password">
+                    </div>
+
+                     
+                    <div class="input_field">
+                      <select class="subj" name="provinces" id="provinces">
+                        <option value="" disabled selected>Prefered Province</option>
+                        <option value="NORTHERN">NORTHERN</option>
+                        <option value="SOUTHERN">SOUTHERN</option>
+                        <option value="WESTERN">WESTERN </option>
+                         <option value="CENTRAL">CENTRAL </option>
+                        <option value="SABARAGAMUWA">SABARAGAMUWA </option>
+                        <option value="EASTERN">EASTERN </option>
+                        <option value="UVA">UVA</option>
+                        <option value="NORTH WESTERN">NORTH WESTERN</option>
+                        <option value="NORTH CENTRAL">NORTH CENTRAL</option>
+                      </select>
+                    </div>   
+
+                    <div class="input_field">
+                        <select class="subj" name="theme" id="theme">
+                          <option value="" disabled selected>Prefered Theme</option>
+                          <option value="Light">Light</option>
+                          <option value="Dark">Dark</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input_field">
+                        <select class="subj" name="attFilter" id="attFilter">
+                          <option value="" disabled selected>Attorney Filter</option>
+                          <option value="Light">Highest Winrate</option>
+                          <option value="Dark">Experience Level</option>
+                          <option value="">Highest rated</option>
+                        </select>
+                    </div>
+	   
+                    <!--input fields end-->
+                    
+                    <!--View query button-->
+                    <div class="view">
+                      <div class="input_field">
+                      <button onclick="myFunction()">Sign up</button>
+                    </div>
+                  </div> 
+                 </div>	
+                </div>
+                <!--Query Form end-->
+                
+                
+                   
+               </form> 
+        </div>
+
+        <script src="assets/js/sign-up.js"></script>
+        <script src="assets/js/top-nav.js"></script>
+    </body>
+</html>

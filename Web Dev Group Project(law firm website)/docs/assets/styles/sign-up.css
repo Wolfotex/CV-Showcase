@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(34, 34, 34);
+    background-image: url('../imgs/sign-up-bg.png');
+    background-size: cover;
+}
+
+#signup-form-container{
+    width: 50%;
+    margin-left: 35%;
+    margin-top: -90vh;
+    background-color: rgba(0, 0, 0, 0.389);
+    border-radius: 10px;    
+    padding: 20px;
+}
+
+#signup-form-container h2{
+    text-align: center;
+    color: white;
+}
+
+.input_field{
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.input_field input, select {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    width: 400px;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: white;
+}
+
+.input_field button{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    width: 100px;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: black;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+}

@@ -1,0 +1,153 @@
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: rgb(12, 155, 226);
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
+
+#content{
+    display: none;
+    overflow: hidden;
+}
+
+.loader-content{
+    position: absolute;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin-top: -100vh;
+}
+
+.loader-content img{
+  width: 220vh;
+  overflow: hidden;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+.loading-animation{
+  position: absolute;
+  margin-top: -50vh;
+  margin-left: 780%;
+  scale: 1.5;
+}
+
+.quiz-main-content{
+  margin-top: -40vh;
+}
+
+.quiz-main-content h1{
+  width: 500px;
+  margin-top: -45vh;
+  margin-left: 650%;
+  position: absolute;
+  font-size: 60px;
+  color: white;
+}
+
+#quiz-startup-site-logo{
+  
+  position: relative;
+  bottom: 30vh;
+  margin-left: 45vw;
+  height: 331px;
+  width: 364px;
+}
+
+.quiz-main-content a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.quiz-main-content button{
+  position: relative;
+  padding: 10px 20px 10px 20px;
+  background-color: #5D81FF;
+  width: 200px;
+  border: 0;
+  border-radius: 6px;
+  transition: 0.15s ease-in-out;
+  bottom: 25vh;
+  margin-left: 670%;
+}
+
+.quiz-main-content button:hover{
+  background-color: #8fa8f800;
+  color: white;
+  border: 1px solid #5D81FF;
+}
+
+quiz-main-content a:hover{
+  color: white;
+  
+}
+

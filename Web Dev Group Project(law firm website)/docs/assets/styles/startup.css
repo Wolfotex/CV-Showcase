@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+body{
+  background: linear-gradient(270deg, #121111, #212121, #090a14);
+  background-size: 600% 600%;
+  animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.head-box{
+  font-family: oswald;
+  color: #C30A0A;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -3em;
+}
+
+.head-logo{
+  width: 7em;
+  height: auto;
+  position: absolute;
+  margin-top: 0.8em;
+  margin-left: -10.8em;
+}
+
+.main-head{
+  font-size: 65px;
+  margin-left: 1.3em;
+  text-transform: capitalize;
+}
+.sub-head{
+  font-size: 15px;
+  margin-top: -3.9em;
+  margin-left: 6.5em;
+}
+
+.css-typing{
+  color: #DBECF5;
+  background-color: #d9d9d90c;
+  margin: auto;
+  margin-top: 3em;
+  width: 750px;
+  padding: 20px;
+}
+
+.group-name{
+  font-family: Oswald;
+  color: #C30A0A;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 2px;
+  margin-top: 1em;
+}
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: Oswald;
+  font-size: 20px;
+  margin-left: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .css-typing{
+    width: 400px;
+  }
+
+  .css-typing p{
+    margin-left: 10px;
+  }
+}
+
+.css-typing p:nth-child(1) {
+  width: 19em;
+  animation: type 1.5s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 19em;
+  opacity: 0;
+  animation: type2 1.5s steps(40, end);
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 16.3em;
+  opacity: 0;
+  animation: type3 1.5s steps(40, end), blink .5s step-end infinite alternate;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+

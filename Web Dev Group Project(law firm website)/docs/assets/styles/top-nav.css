@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: #255270;
+  z-index: 99;
+  width: 100%;
+  position: relative;
+}
+
+.top-nav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.15s ease-in-out;
+}
+
+.top-nav a:hover {
+  font-size: 20px;
+  color: black;
+}
+
+#navbar {
+  background-color: #255270; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 99;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+  font-size: 21px;
+}

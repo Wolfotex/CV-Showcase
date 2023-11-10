@@ -1,0 +1,61 @@
+#heading{
+    margin-top: -90vh;
+    margin-left: 21%;
+}
+
+#head-img h1{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 8%;
+    font-size: 55px;
+}
+
+#text{
+    margin-left: 20%;
+    width: 75%;
+}
+
+#filters{
+    margin-left: 9%;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.filters{
+    text-decoration: none;
+    color: black;
+    border: 1px #84CAE8 solid;
+    background-color: #FFF8F8;
+    padding: 10px 20px 10px 20px;
+}
+
+
+#filters li{
+    list-style: none;
+    float: left;
+    margin-left: 15%;
+}
+
+#services{
+    margin-top: 30px;
+    margin-left: 20%;
+    width: 75%;
+    height: 650px;
+}
+
+#services li{
+    float: left;
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.service{
+    text-decoration: none;
+    color: #27889D;
+}
+
+.filter-container{
+    width: 300px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valor - Image Gallery</title>
+        <link rel="icon" href="assets/imgs/logo-black.png">
+
+        <link rel="stylesheet" href="assets/styles/top-nav.css">
+        <link rel="stylesheet" href="assets/styles/sidebar.css">
+        <link rel="stylesheet" href="assets/styles/home-page.css">
+        <link rel="stylesheet" href="assets/styles/image-gallery.css">
+    </head>
+    <body>
+        <div class="top-nav" id="my-top-nav">
+                
+            <a href="sign-up.html">Sign up</a>
+            <a href="shop.html">Shop</a>
+            <a href="quiz-startup.html">Test your knowledge</a>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <a href="index.html"><img src="assets/imgs/logo-black.png" alt="logo" class="sidebar-logo-img"></a>
+            </div>
+
+            <div class="side-nav">
+                <ul>
+                    <li><a href="home-page.html" >Home</a></li>
+                    <li><a href="services-page.html">Services</a></li>
+                   
+                    <li><a href="image-gallery.html" id="active" >Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+        <!--Content goes here-->
+        <!--add the content inside a div and add these css styles to the div
+                loat: right;
+                width: 80%; width can be lower than 80 but cant be higher-->
+                <div id="image-gallery">
+                    <div class="rt-container">
+                        <div class="col-rt-12">
+                            <div class="Scriptcontent">
+                                <div class="slider">
+                                    <h1 id="line-over-img">VALOR  <span>Advocates</span></h1>
+                                    <input type="radio" name="slide_switch" id="id1" checked="checked"/>
+                                    <label for="id1">
+                                        <img src="assets/imgs/img-gallery/1.png" width="80" height="60"/>
+                                    </label>
+                                    <img src="assets/imgs/img-gallery/1.png" class="large-img">
+                                                
+                                    <input type="radio" name="slide_switch" id="id2" />
+                                    <label for="id2">
+                                        <img src="assets/imgs/img-gallery/2.jpg" width="80" height="60"/>
+                                    </label>
+                                    <img src="assets/imgs/img-gallery/2.jpg" class="large-img"/>
+                                                
+                                    <input type="radio" name="slide_switch" id="id3"/>
+                                    <label for="id3">
+                                        <img src="assets/imgs/img-gallery/3.jpg" width="80" height="60"/>
+                                    </label>
+                                    <img src="assets/imgs/img-gallery/3.jpg" class="large-img"/>
+                                                
+                                    <input type="radio" name="slide_switch" id="id4"/>
+                                    <label for="id4">
+                                        <img src="assets/imgs/img-gallery/4.jpg" width="80" height="60"/>
+                                    </label>
+                                    <img src="assets/imgs/img-gallery/4.jpg" class="large-img"/>
+                                                
+                                    <input type="radio" name="slide_switch" id="id5"/>
+                                    <label for="id5">
+                                        <img src="assets/imgs/img-gallery/5.jpg" width="80" height="60"/>
+                                    </label>
+                                    <img src="assets/imgs/img-gallery/5.jpg" class="large-img""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <hr class="hr-b">
+        <br>
+
+        <div>
+            <div id="img-grid">
+                <h1>Image Gallery</h1>
+                <ul class="img-list">
+                    <li><span class="img-placeholder">- placeholder -</span></li>
+                    <li><img src="assets/imgs/1.jpg"></li>
+                    <li><img src="assets/imgs/2.jpg"></li>
+                    <li><img src="assets/imgs/3.jpg"></li>
+                    <li><span class="img-placeholder">- placeholder -</span></li>
+                    <li><img src="assets/imgs/1.jpg"></li>
+                    <li><span class="img-placeholder">- placeholder -</span></li>
+                    <li><img src="assets/imgs/1.jpg"></li>
+                    <li><img src="assets/imgs/1.jpg"></li>
+                  </ul>
+            </div> 
+        </div>
+
+        <div class="footer">
+            <img src="assets/imgs/footer-img.png" alt="footer-bg" id="footer-bg">
+            <div>
+                <ul>
+                    <li class="footer-first">
+                        <a href="#image-gallery">Scroll to the top</a>
+                        <br><br>
+                        <span><a href=""><img src="assets/imgs/social-media/fb.png" alt=""></a></span>
+                        <span><a href=""><img src="assets/imgs/social-media/twitter.png" alt=""></a></span>
+                        <span><a href=""><img src="assets/imgs/social-media/linkedin.png" alt=""></a></span>
+                    </li>
+
+                    <li class="footer-second">
+                        <a href="">Shop</a>
+                        <br><br>
+                        <a href="">Site Map</a>
+                        <br><br>
+                        <a href="">Contact Us</a>
+                        <br><br>
+                        <a href="">For Attorneys</a>
+                    </li>
+                    
+                    <li class="footer-third">
+                        <a href="">Login</a>
+                        <br><br>
+                        <a href="">Sign Up</a>
+                        <br><br>
+                        <a href="">Page Editor</a>
+                        <br><br>
+                        <a href="">Test your knowledge</a>
+                        
+                    </li>
+
+                    <li class="footer-fourth">
+                        <h3>LEGAL</h3>
+                        <a href="">Terms<br>and Conditions</a>
+                        <br><br>
+                        <a href="">Privacy Policy</a>
+                        <br><br>
+                        <a href="">Cookie<br>Preferences</a>
+                    </li>
+                </ul>
+                
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <span id="dev">Developed by: <a href="" class="dev-name">Gouri Napevithanage</a></span>
+            </div>
+            <hr>
+        </div>
+            <hr>
+
+        
+        </div>
+
+
+        <script src="assets/js/top-nav.js"></script>
+        <script src="assets/js/home-page.js"></script>
+    </body>
+</html>

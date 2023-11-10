@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valor - Quiz</title>
+        <link rel="icon" href="assets/imgs/logo-black.png">
+
+        <link rel="stylesheet" href="assets/styles/top-nav.css">
+        <link rel="stylesheet" href="assets/styles/sidebar.css">
+        <link rel="stylesheet" href="assets/styles/home-page.css">
+        <link rel="stylesheet" href="assets/styles/quiz.css">
+    </head>
+    <body onload="NextQuestion(0)">
+        <div id="navbar">
+            a href="sign-up.html">Sign up</a>
+            <a href="shop.html">Shop</a>
+            <a href="quiz-startup.html">Test your knowledge</a>
+          </div>
+
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <a href="index.html"><img src="assets/imgs/logo-black.png" alt="logo" class="sidebar-logo-img"></a>
+            </div>
+
+            <div class="side-nav">
+                <ul>
+                    <li><a href="home-page.html" id="active">Home</a></li>
+                    <li><a href="services-page.html">Services</a></li>
+                    
+                    <li><a href="image-gallery.html">Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+        <img src="assets/imgs/quiz-bg.png" alt="quiz background" id= "quiz-bg"srcset="">
+        
+
+        <div id="quiz-container">
+            <div id="quiz">
+                <!-- creating a modal for when quiz ends -->
+                <div class="modal-container" id="score-modal">
+                 
+                   <div class="modal-content-container">
+                     
+                       <h1>Congratulations, Quiz Completed.</h1>
+                     
+                       <div class="grade-details">
+                           <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                           <p>Right Answers : <span id="right-answers"></span></p>
+                           <p>Score : <span id="grade-percentage"></span></p>
+                           <p ><span id="remarks"></span></p>
+    
+                           <div class="card">
+                               <div class="percent">
+                                 <svg>
+                                   <circle cx="105" cy="105" r="100"></circle>
+                                   <circle cx="105" cy="105" r="100" style="--percent: 30"></circle>
+                                 </svg>
+                                 <div class="number">
+                                   <h3 id="grade">30<span>%</span></h3>
+                                 </div>
+                               </div>
+                               <div class="title">
+                                 <h2>Grade</h2>
+                               </div>
+                             </div>
+                       </div>
+                     
+                       <div class="modal-button-container">
+                           <button> <a href="quiz-startup.html"> Continue</a></button>
+                       </div>
+                     
+                   </div>
+               </div>
+       
+               <div id="timeout-popup">
+                   <div class="timeout-popup-content">
+                       <p class="timeout-popup-text">Oh no! Time has ran out!</p>
+           
+                       <div class="timeout-popup-button-container">
+                           <button><a href="home-page.html">Close</a></button>
+                       </div>
+                   </div>
+               </div>
+    
+               <div class="game-quiz-container">
+    
+                   <div class="game-details-container">
+                       <p>Time left: <span id="timer"></span></p>
+                   </div>
+       
+                   <div class="game-question-container">
+                       <h1 id="display-question"></h1>
+                   </div>
+       
+                   <div class="game-options-container">
+                     
+                      <div class="modal-container" id="option-modal">
+                        
+                           <div class="modal-content-container">
+                                <h1>Please Pick An Option</h1>
+                             
+                                <div class="modal-button-container">
+                                   <button onclick="closeOptionModal()">Continue</button>
+                               </div>
+                             
+                           </div>
+                        
+                      </div>
+    
+                       
+                     
+                       <span>
+                           <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                           <label for="option-one" class="option" id="option-one-label"></label>
+                       </span>
+                     
+       
+                       <span>
+                           <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                           <label for="option-two" class="option" id="option-two-label"></label>
+                       </span>
+                     
+       
+                       <span>
+                           <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                           <label for="option-three" class="option" id="option-three-label"></label>
+                       </span>
+                     
+       
+                       <span>
+                           <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                           <label for="option-four" class="option" id="option-four-label"></label>
+                       </span>
+       
+       
+                   </div>
+       
+                   <div class="next-button-container">
+                       <button onclick="handleNextQuestion()">Next Question</button>
+                   </div>
+    
+                   <div class="game-details-container">
+                       <h1>Score : <span id="player-score"></span> / 20</h1>
+                       <h1> Question : <span id="question-number"></span> / 10</h1>
+                   </div>
+       
+               </div>
+           </div>
+        </div>
+        
+    
+        <script src="assets/js/quiz.js"></script>
+        <script src="assets/js/top-nav.js"></script>
+        <script src="assets/js/home-page.js"></script>
+    </body>
+</html>

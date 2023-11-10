@@ -1,0 +1,37 @@
+#heading{
+    margin-top: -90vh;
+    margin-left: 21%;
+    z-index: -10;
+}
+
+#head-img h1{
+    position: absolute;
+    margin-top: 7.2vh;
+    margin-left: 8%;
+    font-size: 55px;
+}
+
+#head-img h2{
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 8%;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#overview{
+    margin-top: 30px;
+    margin-left: 17.5%;
+    width: 80%;
+    margin-right: 5%;
+}
+
+#overview-content{
+    margin-top: 50px;
+}
+
+#overview p{
+    margin-top: 20px;
+    text-align: center;
+}
+
